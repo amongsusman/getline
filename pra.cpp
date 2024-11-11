@@ -13,6 +13,7 @@ int main() {
     cout << "How long do you want your list to be?" << endl;
     cin >> times;
     cin.ignore();
+    cout << "Type in your entries for the list, one at a time." << endl;
     for (int i = 0; i < times; i++) {
         getline(cin, cur);
         list.push_back(cur);
